@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicionado para incluir padding e border no cálculo total da largura e altura */
+}
+
+main {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 20px; /* Ajustado o padding */
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
+
+button {
+    background: blue;
+    color: azure;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer; /* Adicionado para indicar que o botão é clicável */
+}
